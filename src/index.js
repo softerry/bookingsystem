@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-function Hello(){
-  return <h1>Hello world</h1>
+function LoginForm(){
+  return (<form>
+    <label> username: <input type="text"></input></label>
+    <label>Password:<input type="password"></input></label>
+    <input type="submit" value="submit"></input>
+  </form>)
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <Hello/>
+const loginform = ReactDOM.createRoot(document.getElementById('loginform'));
+loginform.render(
+  <LoginForm/>
 );
 
 // If you want to start measuring performance in your app, pass a function
