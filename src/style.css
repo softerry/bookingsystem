@@ -7,48 +7,57 @@
 body{
     height: 100vh;
     width: 100%;
-    /* background-image: url('image/bg-image.jpg'); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-color:antiquewhite
 }
 h1{
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+
 }
-p{
-    font-size: 14px;
-    font-weight: 100;
-    line-height: 20px;
-    letter-spacing: 0.5px;
-    margin: 20px 0 30px;
-}
-span{
-    font-size:12px;
-}
+
 input[type="submit"]{
-    border-radius: 20px;
-    border:1px solid #ff4b2b;
-    color:#ffffff;
-    font-size: 12px;
+    border-radius: 10px;
+    color:black;
+    font-size: 14px;
     letter-spacing: 1px;
     padding: 12px 45px;
     text-transform: uppercase;
-    transition: transform 80ms ease-in
+    cursor: pointer;
 }
-
-
-form{
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 0 50px;
-    height: 100%;
-}
-input{
-    background-color: #eee;
-    border: none;
-    padding: 12px 15px;
-    margin:8px 0;
+input[type=text], input[type=password]{
     width: 100%;
+    padding:12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border:1px solid #ccc;
+    box-sizing: border-box;
+}
+form{
+    margin: 100px auto;
+    width: 40%;
+}
+input[type=submit]{
+    float: right;
+}
+input[type=checkbox]{
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.social-icon{
+    font-size: x-large;
+    padding: 10px;
+}
+.social-container{
+    text-align: center;
+}
+.forget-password{
+    padding-left: 10px;
 }
