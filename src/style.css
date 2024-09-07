@@ -61,3 +61,15 @@ a{
 .forget-password{
     padding-left: 10px;
 }
+.input-icons{
+    position: relative;
+}
+.input-icons .icon{
+    position:absolute;
+}
+.icon{
+    padding:20px;
+}
+input{
+    text-align: center;
+}
